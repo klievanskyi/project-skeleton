@@ -1,2 +1,1 @@
-const asd = 'asd';
-console.log(asd);
+import './js/common';
