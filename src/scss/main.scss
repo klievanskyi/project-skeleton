@@ -1,0 +1,20 @@
+.main {
+  &__span {
+    color: red;
+    // background-color: black;
+  }
+}
+
+h1 {
+  color: green;
+}
+
+h3 {
+  color: green;
+}
+
+h2 {
+  color: green;
+}
+
+@import "bar";
