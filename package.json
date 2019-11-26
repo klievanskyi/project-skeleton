@@ -4,8 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/NickoKlevanski/project-skeleton.git",
   "scripts": {
-    "dev": "webpack-dev-server --open --config webpack.dev.conf.js",
-    "build": "webpack --config webpack.build.conf.js"
+    "dev": "webpack-dev-server --open --config ./build/webpack.dev.conf.js",
+    "build": "webpack --config ./build/webpack.build.conf.js"
   },
   "browserslist": [
     "> 1%",
@@ -26,6 +26,7 @@
     "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.1",
+    "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.13.0",
     "path": "^0.12.7",
